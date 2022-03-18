@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OUR PROJECTS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+</head>
+<body>
+
+<div class="hero">
+    <nav>
+        <a href = "index.html"><img src="images/logo.png" class="logo" alt = "logo"></a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">OUR PROJECTS</a></li>
+        </ul>
+</div>
+<!--        <div class="text-box">-->
+<!--            <img class = "ad" src = "images/epin.jpeg"/>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <img class = "part-2" src = "images/image1.jpeg"/>-->
+<!--        </div>-->
+<!--    </nav>-->
+<div class = "text-box">
+    <h1 class = "title">Some of our projects</h1>
+    <br>
+    <br>
+
+    <img class = "ad" id="image" src="images/epin.jpeg"/>
+    <p></p>
+
+    <script>
+
+        var imageSources = ["images/image1 copy.png", "images/image3 copy.png", "images/ad.png"]
+
+        var index = 0;
+        setInterval (function(){
+            if (index === imageSources.length) {
+                index = 0;
+            }
+            document.getElementById("image").src = imageSources[index];
+            index++;
+        } , 4000);
+
+    </script>
+
+    <h1>Where you can find our projects</h1>
+    <br>
+    <br>
+
+    <p class = "textp">At Cham we believe that open source is important, without it, many of the technologies we take for granted today would never have developed, or would be locked away behind patent law. The open source movement is the reason that technology has developed at such a breakneck pace for the past few decades.</p>
+    <br>
+    <p><a href = "https://github.com/Mark7-dev/Mark7-dev.github.io">Github</a></p>
+    <br>
+    <p><a href = "https://github.com/Mark7-dev/Example-Website">Github</a></p>
+
+
+</div>
+
+
+<!--        <p><a href = "https://www.cgslollies.com/">One of our websites that we built</a></p>-->
+<!--        <p><a href = "https://github.com/Mark7-dev/Example-Website">A more basic website we built</a></p>-->
+
+
+
+
+
+
+
+</body>
+
+</html>
