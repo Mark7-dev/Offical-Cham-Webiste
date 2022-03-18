@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="stylemain.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+</head>
+<body>
+  <div class="header">
+      <nav>
+          <a href = "index.html"><img src="images/logo.png" class="logo" alt = "logo"></a>
+
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="projects.html">OUR PROJECTS</a></li>
+          </ul>
+      </nav>
+
+      <div class="text-box">
+          <h1><span class="auto-input"></span></h1>
+          <p>You can reach out to us if you want a website<br>designed or hosted for your business.</p>
+          <br>
+          <br>
+          <a href="contact.html">Contact Us</a>
+          <a href="projects.html" class="btn">Our other projects</a>
+      </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+      var typed = new Typed(".auto-input", {
+          strings: ["A website for<br> all your needs", "Professional, clean websites"],
+          typeSpeed: 100,
+          backSpeed: 100,
+          loop: true
+      })
+  </script>
+</body>
+</html>
